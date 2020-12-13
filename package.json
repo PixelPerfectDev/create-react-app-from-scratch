@@ -15,7 +15,7 @@
     "react-dom": "^16.5.2"
   },
   "scripts": {
-    "build": "webpack",
+    "build": "sass src/styles/scss/index.scss src/styles/css/index.css && webpack",
     "start": "webpack-dev-server --open",
     "sass": "sass --watch src/styles/scss:src/styles/css"
   },
